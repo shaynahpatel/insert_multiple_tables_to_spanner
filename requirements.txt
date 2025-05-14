@@ -1,0 +1,4 @@
+neo4j
+neo4j-driver
+google-cloud-spanner
+apache-beam[gcp]>=2.46.0

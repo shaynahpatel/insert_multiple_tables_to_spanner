@@ -143,4 +143,4 @@ if __name__ == '__main__':
     main()
 
 #command to run
-# python main.py --output_dir gs://spanner_insert_multi_retail/ --runner DirectRunner --project prj-shayna-sandbox  --region us-east1 --temp_location gs://neo4j_to_spanner_graph/temp/ --requirements_file ./requirements.txt --subnetwork https://www.googleapis.com/compute/v1/projects/prj-shayna-sandbox/regions/us-east1/subnetworks/default
+# python main.py --output_dir <OUTPUT GCS BUCKET> --runner DirectRunner --project <PROJECT ID>  --region <REGION> --temp_location <TEMP FOLDER GCS BUCKET> --requirements_file ./requirements.txt --subnetwork <SUBNET>
